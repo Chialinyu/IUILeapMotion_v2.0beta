@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		827F8AAB1945BFBF00CE1DA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 827F8AAA1945BFBF00CE1DA7 /* main.cpp */; };
 		827F8AAD1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 827F8AAC1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 */; };
+		827F8AB61945C02500CE1DA7 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 827F8AB51945C02500CE1DA7 /* libLeap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		827F8AA71945BFBF00CE1DA7 /* IUILeapMotion_v2.0beta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IUILeapMotion_v2.0beta; sourceTree = BUILT_PRODUCTS_DIR; };
 		827F8AAA1945BFBF00CE1DA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		827F8AAC1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IUILeapMotion_v2_0beta.1; sourceTree = "<group>"; };
+		827F8AB31945C00B00CE1DA7 /* Leap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		827F8AB41945C01400CE1DA7 /* LeapMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		827F8AB51945C02500CE1DA7 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827F8AB61945C02500CE1DA7 /* libLeap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,9 @@
 		827F8A9E1945BFBF00CE1DA7 = {
 			isa = PBXGroup;
 			children = (
+				827F8AB51945C02500CE1DA7 /* libLeap.dylib */,
+				827F8AB31945C00B00CE1DA7 /* Leap.h */,
+				827F8AB41945C01400CE1DA7 /* LeapMath.h */,
 				827F8AA91945BFBF00CE1DA7 /* IUILeapMotion_v2.0beta */,
 				827F8AA81945BFBF00CE1DA7 /* Products */,
 			);
@@ -197,6 +205,10 @@
 		827F8AB11945BFBF00CE1DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -204,6 +216,10 @@
 		827F8AB21945BFBF00CE1DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

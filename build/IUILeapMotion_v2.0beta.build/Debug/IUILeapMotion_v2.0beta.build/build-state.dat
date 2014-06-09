@@ -1,0 +1,140 @@
+TIUILeapMotion_v2.0beta
+v6
+r1
+cCheck dependencies
+cCompileC build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005348498700000000000000AA
+t1397246343
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526774E8000000000000044C
+t1382511848
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FB14200000000000001DE
+t1394585922
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531FB1450000000000000ADC
+t1394585925
+s2780
+
+N/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp
+c000000005395938A000000000000468F
+t1402311562
+s18063
+
+N/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta
+t2
+s0
+
+N/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/IUILeapMotion_v2.0beta.LinkFileList
+c000000005395938A0000000000000091
+t1402311562
+s145
+
+N/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o
+t1402311565
+s231788
+
+N/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/libLeap.dylib
+c00000000537E653C000000000022B7F0
+t1400792380
+s2275312
+
+CBuild AST from /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbc57f50acb45b941^aef3070bcb45b941^---0#1#1#--18"Check dependencies36"FFD193C6-932E-4B64-B6EA-52262A612D82-
+
+CCompileC build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424004363.156680
+e424004365.181740
+r1
+xCompileC
+xbuild/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o
+x/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/Leap.h
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/LeapMath.h
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:77:9: warning: unused variable 'w' [-Wunused-variable]
+o    int w;
+o        ^
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:76:9: warning: unused variable 'sockfd' [-Wunused-variable]
+o    int sockfd;
+o        ^
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:82:9: warning: unused variable 'len' [-Wunused-variable]
+o    int len;
+o        ^
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:269:22: warning: unused variable 'normal' [-Wunused-variable]
+o        const Vector normal = hand.palmNormal();
+o                     ^
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:270:22: warning: unused variable 'direction' [-Wunused-variable]
+o        const Vector direction = hand.direction();
+o                     ^
+o/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:390:11: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+o    ret = sendto(sd, buf_out.str().c_str(), strlen(buf_out.str().c_str()), 0, (struct sockaddr*)&broadcastAddr, sizeof(broadcastAddr));
+o        ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o6 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp201"CompileC build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o IUILeapMotion_v2.0beta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdc12290bcb45b941^50a92e0dcb45b941^-1391"/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:77:9: warning: unused variable 'w' [-Wunused-variable]    int w;        ^/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:76:9: warning: unused variable 'sockfd' [-Wunused-variable]    int sockfd;        ^/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:82:9: warning: unused variable 'len' [-Wunused-variable]    int len;        ^/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:269:22: warning: unused variable 'normal' [-Wunused-variable]        const Vector normal = hand.palmNormal();                     ^/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:270:22: warning: unused variable 'direction' [-Wunused-variable]        const Vector direction = hand.direction();                     ^/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp:390:11: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]    ret = sendto(sd, buf_out.str().c_str(), strlen(buf_out.str().c_str()), 0, (struct sockaddr*)&broadcastAddr, sizeof(broadcastAddr));        ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@19"Unused variable 'w'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^76#8#76#8#2008#0#19"Unused Entity Issue--2@24"Unused variable 'sockfd'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^75#8#75#8#1992#0#19"Unused Entity Issue--2@21"Unused variable 'len'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^81#8#81#8#2153#0#19"Unused Entity Issue--2@24"Unused variable 'normal'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^268#21#268#21#10265#0#19"Unused Entity Issue--2@27"Unused variable 'direction'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^269#21#269#21#10314#0#19"Unused Entity Issue--2@76"Implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'-424004365#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^389#10#389#10#15939#0#22"Value Conversion Issue2(3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^389#10#389#134#15939#123#3@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^389#8#389#9#15937#0#-0#0#1#-19%DVTDocumentLocation4@84"file:///Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp0000000000000000^3244"CompileC build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o IUILeapMotion_v2.0beta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/carolyn/Desktop/IUILeapMotion_v2.0beta    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/IUILeapMotion_v2.0beta-generated-files.hmap -I/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/IUILeapMotion_v2.0beta-own-target-headers.hmap -I/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/IUILeapMotion_v2.0beta-all-target-headers.hmap -iquote /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/IUILeapMotion_v2.0beta-project-headers.hmap -I/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/DerivedSources/x86_64 -I/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/DerivedSources -F/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug -MMD -MT dependencies -MF /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.dia -c /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/IUILeapMotion_v2.0beta/main.cpp -o /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o36"02AD379A-CB96-4363-9204-1566BB1DBD4C-
+bE2140BFB-37A9-45B5-8D8F-1F79EE63A0EF
+
+CLd /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta normal x86_64
+s424004365.183180
+e424004365.668499
+r1
+xLd
+x/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta
+xnormal
+xx86_64
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/IUILeapMotion_v2.0beta.LinkFileList
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/main.o
+d/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/libLeap.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta51"Ld build/Debug/IUILeapMotion_v2.0beta normal x86_641ff62e0dcb45b941^b724ab0dcb45b941^---0#0#1#--1067"Ld build/Debug/IUILeapMotion_v2.0beta normal x86_64    cd /Users/carolyn/Desktop/IUILeapMotion_v2.0beta    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug -L/Users/carolyn/Desktop/IUILeapMotion_v2.0beta -F/Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug -filelist /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/IUILeapMotion_v2.0beta.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lLeap -Xlinker -dependency_info -Xlinker /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/IUILeapMotion_v2.0beta.build/Debug/IUILeapMotion_v2.0beta.build/Objects-normal/x86_64/IUILeapMotion_v2.0beta_dependency_info.dat -o /Users/carolyn/Desktop/IUILeapMotion_v2.0beta/build/Debug/IUILeapMotion_v2.0beta36"3EA47979-EA29-4417-8DFE-0CCAF0EBAE60-
+bE2140BFB-37A9-45B5-8D8F-1F79EE63A0EF
+
