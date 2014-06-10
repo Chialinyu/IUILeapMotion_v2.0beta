@@ -10,6 +10,7 @@
 		827F8AAB1945BFBF00CE1DA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 827F8AAA1945BFBF00CE1DA7 /* main.cpp */; };
 		827F8AAD1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 827F8AAC1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 */; };
 		827F8AB61945C02500CE1DA7 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 827F8AB51945C02500CE1DA7 /* libLeap.dylib */; };
+		82DE9CB4194712D300B78078 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 827F8AB51945C02500CE1DA7 /* libLeap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +23,16 @@
 				827F8AAD1945BFBF00CE1DA7 /* IUILeapMotion_v2_0beta.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		82DE9CB31947128900B78078 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				82DE9CB4194712D300B78078 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -84,6 +95,7 @@
 				827F8AA31945BFBF00CE1DA7 /* Sources */,
 				827F8AA41945BFBF00CE1DA7 /* Frameworks */,
 				827F8AA51945BFBF00CE1DA7 /* CopyFiles */,
+				82DE9CB31947128900B78078 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -243,6 +255,7 @@
 				827F8AB21945BFBF00CE1DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
