@@ -268,6 +268,7 @@ void SampleListener::onFrame(const Controller& controller) {
         // Get the hand's normal vector and direction
         const Vector normal = hand.palmNormal();
         const Vector direction = hand.direction();
+
         
         /* temp mark
          // Calculate the hand's pitch, roll, and yaw angles

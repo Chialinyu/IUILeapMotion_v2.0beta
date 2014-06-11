@@ -60,8 +60,8 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "DYLD_LIBRARY_PATH "
-            value = "/Users/MyUserAccount/path/to/lib"
-            isEnabled = "YES">
+            value = "/Users/carolyn/Documents/1022Fish&apos;sIUILab/LeapMotion/LeapDeveloperKit_2.0.1+15831_mac/LeapSDK/lib/libc++"
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
       <AdditionalOptions>
